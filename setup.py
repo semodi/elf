@@ -10,6 +10,7 @@ if __name__ == "__main__":
         url="",
         license='BSD-3C',
         packages=setuptools.find_packages(),
+        python_requires='>=3.6',
         install_requires=[
             'numpy',
             'sympy',
@@ -19,7 +20,8 @@ if __name__ == "__main__":
             'ipyparallel',
             'pandas',
             'ase',
-            'numba'
+            'numba',
+            'cython'
         ],
         extras_require={
             'docs': [
