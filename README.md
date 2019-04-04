@@ -1,3 +1,6 @@
+
+elf was integerated into the [mlcf](https://github.com/semodi/mlcf) repository and discontinued on this channel. 
+
 # elf
 Libary to create atom-centered electronic fingerprints ("ElFs") from real-space electron densities.
 
